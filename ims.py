@@ -1,11 +1,40 @@
-#Inventory Management System
+#Inventory Management System 2
 #SaurontheMighty
 
-#Dictionaries
-unit_price={1: 34.99, 2: 20.00, 3: 5.99, 4: 6.00, 5: 10.49}
-description={1: "raspberry pi",2: "arduino", 3: " 1 spool wire", 4: "soldering wire", 5:"soldering iron"}
-stock={1: 100, 2: 2, 3: 100, 4: 100, 5: 100}
 
+#Dictionaries
+unit_price={}
+description={}
+stock={}
+
+#Open file with stock
+details = open("stock.txt","r")
+
+#First line of the file is the number of items
+no_items  = int((details.readline()).rstrip("\n"))
+
+#Add items to dictionaries
+for i in range(0,no_items):
+    line  = (details.readline()).rstrip("\n")
+    x1,x2 = line.split("#")
+    x1=int(x1)
+    x2=float(x2)
+    unit_price.update({x1: x2})
+
+for i in range(0,no_items):
+    line  = (details.readline()).rstrip("\n")
+    x1,x2 = line.split("#")
+    x1=int(x1)
+    description.update({x1: x2})
+
+for i in range(0,no_items):
+    line  = (details.readline()).rstrip("\n")
+    x1,x2 = line.split("#")
+    x1=int(x1)
+    x2=int(x2)
+    stock.update({x1: x2})
+
+details.close()
 
 #List to store the items purchased
 cart=[]
@@ -216,3 +245,18 @@ if(total_cost>0 and flag==0):
     
 print()
 print("Thank you for using IMS")
+
+#Write the updated inventory to the file
+details = open("stock.txt","w")
+no_items=len(unit_price)
+details.write(str(no_items)+"\n")
+for i in range(0,no_items):
+    details.write(str(i+1)+"#"+str(unit_price[i+1])+"\n")
+    
+for i in range(0,no_items):
+    details.write(str(i+1)+"#"+description[i+1]+"\n")
+    
+for i in range(0,no_items):
+    details.write(str(i+1)+"#"+str(stock[i+1])+"\n")
+    
+details.close()
