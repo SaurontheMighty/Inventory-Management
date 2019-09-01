@@ -1,10 +1,10 @@
 #Inventory Management System
-
+#SaurontheMighty
 
 #Dictionaries
 unit_price={1: 34.99, 2: 20.00, 3: 5.99, 4: 6.00, 5: 10.49}
 description={1: "raspberry pi",2: "arduino", 3: " 1 spool wire", 4: "soldering wire", 5:"soldering iron"}
-stock={1: 100, 2: 200, 3: 100, 4: 100, 5: 100}
+stock={1: 100, 2: 2, 3: 100, 4: 100, 5: 100}
 
 
 #List to store the items purchased
@@ -24,6 +24,7 @@ print("I-Inquire about a part")
 print("P-Purchase")
 print("C-Checkout")
 print("S-Show all parts purchased")
+print("Q-Quit")
 print("remove-Remove an item from the cart")
 print("help-See all commands again")
 print()
