@@ -1,1 +1,1 @@
-Although all we had to do for the assignment was a basic inventory management system, I added some other features lik a shopping cart just because it was fun to code.
+Designed as a basic back-end software for use in a store like environment all we had to do was make a system that could add remove, and edit items but I was having a lot of fun so I added a shopping cart and a bunch of other features. 
