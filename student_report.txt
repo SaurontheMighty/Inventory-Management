@@ -1,0 +1,25 @@
+Student Number: 444444
+Average Midterm: 81.9
+Average Final: 83.9
+AWARD
+
+Student Number: 123456
+Average Midterm: 66.9
+Average Final: 67.8
+AWARD
+
+Student Number: 555555
+Average Midterm: 89.7
+Average Final: 91.1
+AWARD
+
+Student Number: 987654
+Average Midterm: 86.9
+Average Final: 88.3
+AWARD
+
+Student Number: 777777
+Average Midterm: 56.0
+Average Final: 58.8
+AWARD
+
