@@ -1,5 +1,3 @@
-#Ashish Selvaraj, 938081
-#ICS3U0
 #Movie Ticket Cost Calculator
 
 #Initializing Variables
