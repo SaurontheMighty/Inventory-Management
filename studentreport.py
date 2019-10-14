@@ -1,6 +1,3 @@
-#Ashish Selvaraj
-#938081
-#ICS3U0
 #Student information
 
 studentfile = open("midterm_final_marks.txt","r")
