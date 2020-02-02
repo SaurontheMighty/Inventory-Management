@@ -2,5 +2,6 @@ Designed as a basic back-end software for use in a store like environment all we
 
 Project Files:
 ims.py 
+stock.txt
 
 There are other unrelated python project files as well.
