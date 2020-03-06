@@ -7,3 +7,11 @@ ims.py
 stock.txt
 
 There are other unrelated python project files as well in the folder "Other ICS3U Files".
+
+
+What it does:
+1. Opens the text file with the current items and stock of each item
+2. Loads this information into dictionaries
+3. Allows the user to add an item, remove an item, edit the specifics of an item, list all the items, look up an item, purchase an item, checkout or remove an item from the cart.
+4. All purchased items go into the cart and the cost is totalled on checkout.
+5. Saves all the changes by writing them to the text file.
