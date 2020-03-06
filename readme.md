@@ -7,10 +7,8 @@ ims.py
 stock.txt
 
 There are other unrelated python project files as well in the folder "Other ICS3U Files".
-
-
-
-
+<br>
+<br>
 What it does:
 1. Opens the text file with the current items and stock of each item
 2. Loads this information into dictionaries
